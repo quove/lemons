@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.font {
+    font-family: 'Major Mono Display', monospace;
+    color: green;
+
+}
+body {
+    background-color: blue;
+}
+div {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 400%;
+}
+
+div.b {
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+
+div.c {
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+
+div.d {
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+
+div.e {
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+
+div.f {
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+
+div.g {
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+
+div.h{
+width: 50px;
+height: 50px;
+position:fixed;
+
+}
+@keyframes bgcolor {
+    0% {
+        background-color: black
+    }
+
+    33% {
+        background-color: white
+    }
+
+    66% {
+        background-color: black
+    }
+
+    100% {
+        background-color: white
+    }
+
+}
+/*used kahoots basis*/
+body {
+    -webkit-animation: bgcolor .2s infinite;
+    animation: bgcolor .1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
